@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Chérrie. Parfum Deluxe</title>
+</head>
+<body>
+
+    <audio id="cherrieSound" src="cherrie.mp3" preload="auto" loop></audio>
+
+
+
+    <div class="audio-controls">
+        <button class="play-btn" data-sound="cherrieSound">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#fff" viewBox="0 0 256 256"><path d="M155.51,24.81a8,8,0,0,0-8.42.88L77.25,80H32A16,16,0,0,0,16,96v64a16,16,0,0,0,16,16H77.25l69.84,54.31A8,8,0,0,0,160,224V32A8,8,0,0,0,155.51,24.81ZM32,96H72v64H32ZM144,207.64,88,164.09V91.91l56-43.55Zm101.66-61.3a8,8,0,0,1-11.32,11.32L216,139.31l-18.34,18.35a8,8,0,0,1-11.32-11.32L204.69,128l-18.35-18.34a8,8,0,0,1,11.32-11.32L216,116.69l18.34-18.35a8,8,0,0,1,11.32,11.32L227.31,128Z"></path></svg>
+
+        </button>
+        <button class="pause-btn" data-sound="cherrieSound" style="display:none;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#fff" viewBox="0 0 256 256"><path d="M155.51,24.81a8,8,0,0,0-8.42.88L77.25,80H32A16,16,0,0,0,16,96v64a16,16,0,0,0,16,16H77.25l69.84,54.31A8,8,0,0,0,160,224V32A8,8,0,0,0,155.51,24.81ZM32,96H72v64H32ZM144,207.64,88,164.09V91.91l56-43.55Zm54-106.08a40,40,0,0,1,0,52.88,8,8,0,0,1-12-10.58,24,24,0,0,0,0-31.72,8,8,0,0,1,12-10.58ZM248,128a79.9,79.9,0,0,1-20.37,53.34,8,8,0,0,1-11.92-10.67,64,64,0,0,0,0-85.33,8,8,0,1,1,11.92-10.67A79.83,79.83,0,0,1,248,128Z"></path></svg>
+
+        </button>
+    </div>
+
+    <div class="vyher-banner">This is an experiment by VYHER Labs. <a href="https://vyher.com">Learn more.</a></div>
+
+
+    <div id="custom-cursor"></div>
+
+
+    <nav>
+        <div class="nav-left">
+            <div class="nav-menu">
+                <div class="nav-menu-line"></div>
+                <div class="nav-menu-line"></div>
+                <div class="nav-menu-line"></div>
+            </div>
+            <div class="nav-shop">Shop</div>
+        </div>
+
+        <!-- <div class="nav-center">
+            <div class="nav-logo">
+                <img src="images/logo.svg" alt="Chérie Logo">
+            </div>
+        </div> -->
+
+
+        <div class="nav-right">
+            <div class="nav-cart">Bag 
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#bababa" viewBox="0 0 256 256"><path d="M236,69.4A16.13,16.13,0,0,0,223.92,64H176a48,48,0,0,0-96,0H32.08a16.13,16.13,0,0,0-12,5.4,16,16,0,0,0-3.92,12.48l14.26,120a16,16,0,0,0,16,14.12H209.67a16,16,0,0,0,16-14.12l14.26-120A16,16,0,0,0,236,69.4ZM128,32a32,32,0,0,1,32,32H96A32,32,0,0,1,128,32Zm81.76,168a.13.13,0,0,1-.09,0H46.25L32.08,80H80v24a8,8,0,0,0,16,0V80h64v24a8,8,0,0,0,16,0V80h48Z"></path></svg>
+            </div>
+        </div>
+
+
+    </nav>
+
+    <!-- <div class="logo">
+        <img src="images/logo.svg" alt="Chérie Logo">
+    </div> -->
+
+    <div class="above-the-fold-container">
+        <div class="above-the-fold-content">
+
+            
+            <div class="button-action btn-watch-film">
+                <span class="button-action-icon">
+                    ► 
+                </span>
+                Watch film
+            </div>
+        </div>
+    </div>
+
+    <section class="daisy">
+        <picture>
+        <source media="(max-width: 800px)" srcset="images/daisy-small.png">
+        <source media="(min-width: 801px)" srcset="images/daisy.png">
+        <img src="images/daisy.png" loading="lazy" decoding="async" alt="Daisy Section">
+
+        </picture>
+    </section>
+
+    <footer>
+        Hand-crafted by <a href="https://vyher.com">VYHER Design.</a>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
